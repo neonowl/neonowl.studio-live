@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: NeonOwl Website Landing Page | Hugo Theme # Website name
-baseURL: 'https://neonowl.website/' # Website URL
+title: neonowl studio # Website name
+baseURL: 'https://neonowl.studio/' # Website URL
 
 ############################
 ## PAGE OPTIONS

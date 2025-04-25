@@ -13,17 +13,17 @@ sections:
       title: neonowl.studio
       text: 🧱 built with HugoBlox  🧱
       primary_action:
-        text: Get Started
+        text: Try a Hugo Blox Template
         url: https://hugoblox.com/templates/
         icon: rocket-launch
       secondary_action:
-        text: Read the docs
+        text: Read the Hugo Blox docs
         url: https://docs.hugoblox.com
       announcement:
-        text: "Announcing the release of version 1."
+        text: "Another"
         link:
-          text: "Read more"
-          url: "/blog/"
+          text: "neonowl.website"
+          url: "https://neonowl.website"
     design:
       spacing:
         padding: [0, 0, 0, 0]
