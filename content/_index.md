@@ -1,5 +1,5 @@
 ---
-title: 'Home'
+title: 'Landing Page'
 date: 2023-10-24
 type: landing
 
@@ -11,14 +11,14 @@ sections:
   - block: hero
     content:
       title: neonowl.studio
-      text: 🧱 built with HugoBlox  🧱
+      text: a digital pedagogy studio in a cyber-physical world
       primary_action:
-        text: Try a Hugo Blox Template
-        url: https://hugoblox.com/templates/
+        text: What is digital pedagogy?
+        url: /#faqs
         icon: rocket-launch
       secondary_action:
-        text: Read the Hugo Blox docs
-        url: https://docs.hugoblox.com
+        text: View the FAQs
+        url: /#faqs
       announcement:
         text: "Another"
         link:
@@ -38,11 +38,11 @@ sections:
           filters:
             brightness: 0.5
   - block: cta-image-paragraph
-    id: signup
+    id: about
     content:
       items:
         - title: Neonowl Studio
-          text: AKA Jerm's Apartment
+          text: AKA Jerm's Apartment, a place for
           feature_icon: bolt
           features:
             - "Reading"
@@ -51,8 +51,14 @@ sections:
           # Upload image to `assets/media/` and reference the filename here
           image: neonowlstudio.jpg
           button:
-            text: Join Our Discord
+            text: Join neonowl on Discord
             url: https://neonowl.social
+  - block: markdown
+    id: faqs
+    content:
+      title: FAQs
+      subtitle: What is digital pedagogy?
+      text: Digital pedagogy is the use of technology and digital tools to enhance teaching and learning experiences, making education more interactive, engaging, and accessible for students.
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"

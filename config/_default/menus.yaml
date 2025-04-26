@@ -9,12 +9,12 @@ main:
   - name: About
     url: /#about
     weight: 20
-  - name: Mailing List
-    url: /#signup
+  - name: FAQs
+    url: /#faqs
     weight: 30
-  - name: Resources
+  - name: Hugo Blox Resources
     weight: 40
     hasChildren: true
-  - parent: Resources
-    name: Blog
+  - parent: Hugo Blox Resources
+    name: Blog Demo
     url: blog/
