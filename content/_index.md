@@ -56,8 +56,8 @@ sections:
   - block: markdown
     id: faqs
     content:
-      title: FAQs
-      subtitle: What is digital pedagogy?
+      title: What is digital pedagogy?
+      subtitle: 
       text: Digital pedagogy is the use of technology and digital tools to enhance teaching and learning experiences, making education more interactive, engaging, and accessible for students.
     design:
       # Section background color (CSS class)
